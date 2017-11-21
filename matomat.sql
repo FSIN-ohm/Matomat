@@ -24,7 +24,8 @@ CREATE TABLE Transactions
    ID int PRIMARY KEY,
    From_user int,
    To_user int,
-   amount int
+   amount int,
+   timestamp DATETIME
 );
 
 DROP TABLE IF EXISTS TransactionItems;
