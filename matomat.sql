@@ -16,11 +16,15 @@ CREATE TABLE Users
    NFC_Id char(25)
 );
 
+INSERT INTO Users (ID, Name, NFC_Id) VALUES (0, 'fachschaft', '');
+
 DROP TABLE IF EXISTS Transactions;
 CREATE TABLE Transactions
 (
    ID int PRIMARY KEY,
-   User int
+   From_user int,
+   To_user int,
+   amount int
 );
 
 DROP TABLE IF EXISTS TransactionItems;
