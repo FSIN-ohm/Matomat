@@ -25,13 +25,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     src/main.cpp \
-    src/mainWindow.cpp
+    src/mainWindow.cpp \
+    src/homewindow.cpp \
+    src/depositwindow.cpp
 
 HEADERS += \
-    src/mainWindow.hpp
+    src/mainWindow.hpp \
+    src/homewindow.h \
+    src/depositwindow.h
 
 FORMS += \
-    src/mainWindow.ui
+    src/mainWindow.ui \
+    src/homewindow.ui \
+    src/depositwindow.ui
 
 RESOURCES += \
     matomat.qrc

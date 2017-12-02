@@ -1,7 +1,4 @@
-QMainWindow {
-    background: black;
-}
 
-QLabel {
-    color: white;
+QPushButton {
+    font-size: 20px;
 }
