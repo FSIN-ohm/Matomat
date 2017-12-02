@@ -24,14 +24,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        src/main.cpp \
-        src/mainWindow.cpp
+    src/main.cpp \
+    src/mainWindow.cpp
 
 HEADERS += \
-        src/mainWindow.hpp
+    src/mainWindow.hpp
 
 FORMS += \
-        res/mainWindow.ui
+    src/mainWindow.ui
 
 RESOURCES += \
-    res/matomat.qrc
+    matomat.qrc
