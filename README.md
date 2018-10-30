@@ -1,4 +1,4 @@
-FSIN Matomat
-============
+Matomat
+=======
 
-The Matomat of the fsin
+This is the Matomat main Repository.
