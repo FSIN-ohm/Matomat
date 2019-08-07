@@ -1,8 +1,4 @@
 Matomat
-=======
-
-This is the Matomat main Repository.
-- [Documentation](https://github.com/FSIN-ohm/Matomat-Documentation)
 
 Matohmat is developped using kanban. Here are the boards:
 - [Admin-Frontend](https://github.com/FSIN-ohm/Matomat-Admin-Frontend/projects/2)
